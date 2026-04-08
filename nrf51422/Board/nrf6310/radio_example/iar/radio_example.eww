@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<workspace>
+  <project>
+    <path>$WS_DIR$/radio_rx_example.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$/radio_tx_Example.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>radio_rx_example</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>radio_rx_example</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>radio_tx_Example</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>radio_tx_Example</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
